@@ -15,22 +15,25 @@ about{
     border-radius: 20px;
 
     position: absolute;
-    right: 7vw;
-    top: 30vh;
-    padding: 20px 10px;
+    right: 0vw;
+    top: 0;
+    padding: 20vh 10px;
+    background-color: black;
 
-    color: goldenrod;
+    height: 100vh;
+
+    color: white;
     
 }
 
-.glass{
+/*.glass{
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border-radius: 20px;
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-}
+}*/
 
 .signup-container-header{
     font-size: 40px;
@@ -49,8 +52,7 @@ about{
 
 .signup-container-button{
     margin: 10px;
-    border-style: solid;
-    border-width: 1px;
+    border: none;
     border-radius: 2px;
     padding: 15px 30px;
     font-size: 20px;
@@ -65,9 +67,10 @@ about{
 }
 
 .signup-container-button:hover{
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, .5);
+    box-shadow: 0px 0px 10px rgba(251, 217, 19, 1);
     padding: 15px 40px;
     letter-spacing: 1px;
+
 }
 
 .signup-container img{
