@@ -15,14 +15,15 @@ about{
     border-radius: 20px;
 
     position: absolute;
-    right: 0vw;
-    top: 0;
-    padding: 20vh 10px;
+    right: 3vw;
+    top: 19vh;
+    padding: 8vh 13px;
     background-color: black;
 
-    height: 100vh;
+    height: 50vh;
 
     color: white;
+
     
 }
 
@@ -38,27 +39,30 @@ about{
 .signup-container-header{
     font-size: 40px;
     margin: 0;
-    font-family: Roboto;
+    font-family: Raleway;
   
 
 }
 
 .signup-container-subtitle{
     margin: 0;
+    margin-top: 40px;
+    margin-bottom: 30px;
     font-size: 15px;
-    font-family: Roboto;
+    font-family: Raleway;
 
 }
 
 .signup-container-button{
-    margin: 10px;
+    margin: 30px 10px 20px 10px;
     border: none;
     border-radius: 2px;
     padding: 15px 30px;
     font-size: 20px;
-    border-radius: 10px;
-    font-family: Roboto;
-    transition: box-shadow 0.15s, letter-spacing 0.15s, padding 0.15s;
+    border-radius: 4px;
+    font-family: Raleway;
+    transition: box-shadow 0.15s, letter-spacing 0.15s, padding 0.15s, color 0.15s, background-color 0.15s;
+    background-color: rgb(251, 217, 19);
 }
 
 .signup-container-button:active{
@@ -70,6 +74,9 @@ about{
     box-shadow: 0px 0px 10px rgba(251, 217, 19, 1);
     padding: 15px 40px;
     letter-spacing: 1px;
+    color: rgb(251, 217, 19);
+    background-color: black;
+    cursor: pointer;
 
 }
 
