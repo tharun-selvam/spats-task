@@ -1,0 +1,93 @@
+body{
+  margin: 0px;
+  margin-bottom: 1000px;
+  background-color: gray;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  height: 50px;
+  background-color: black;
+  font-family: 'Roboto';
+  font-weight: 500;
+  align-items: center;
+  font-size: 18px;
+  color: white;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+.navbar-buttons{
+  transition: color 0.15s;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 1px;
+  align-items: center;
+
+}
+
+.navbar-buttons:hover{
+  color: rgb(251, 217, 19);
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.space-between{
+  flex:1;
+}
+
+.bookstore-logo{
+  width: 100px;
+  font-weight: 200;
+  color: gold;
+}
+
+.about{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.sign-up{
+  width: 1fr;
+  text-align: center;
+  margin-left: 50px;
+  font-size: 40px;
+  font-family: 'Lato';
+  padding-bottom: 100px;
+
+}
+
+.image-holder{
+  width: 1fr;
+  padding-left: 140px;
+  padding-top: 100px;
+  padding-bottom: 143px;
+
+}
+
+.bestsellers-button{
+  border: none;
+  padding: 20px;
+  background-color: burlywood;
+  border-radius: 200px;
+  font-size: 20px;
+  transition: color 0.2s;
+
+}
+
+.bestsellers-button:hover{
+  color: white;
+
+}
