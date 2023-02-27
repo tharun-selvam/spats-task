@@ -1,5 +1,19 @@
-bestsellers-section{
+.bestsellers-section{
     height: 100vh;
     width: 100vw;
     background-color: black;
+    margin-top: -5px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.bestsellers-section p{
+    color: white;
+    margin-top: 30px;
+    font-family: Raleway;
+    font-size: calc(50px + 5vw);
+
+
 }

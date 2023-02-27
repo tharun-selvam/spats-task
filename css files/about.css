@@ -4,6 +4,7 @@ about{
 
 .about-background{
     height: 100vh;
+    min-height: 700px;
     width: 98.75vw;
 }
 
