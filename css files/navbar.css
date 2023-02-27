@@ -10,6 +10,7 @@ body{
   border-color: black;
   border-style: solid;
   height: 8vh;
+  min-height: 50px;
   background-color: black;
   font-family: 'Raleway';
   font-weight: 500;
