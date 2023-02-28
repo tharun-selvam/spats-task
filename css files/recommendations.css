@@ -1,7 +1,7 @@
-.bestsellers-section{
+.recommendations-section{
     height: 800px;
     width: 100vw;
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(251, 217, 19);
     margin-top: -5px; 
     display: flex;
     flex-direction: column;
@@ -10,14 +10,14 @@
 
 }
 
-.bestsellers-section .header{
+.recommendations-section .header{
     margin-top: 17px;
     translate: 0px 55px;
 }
 
 
-.bestsellers-section .header p{
-    color: white;
+.recommendations-section .header p{
+    color: black;
     margin: 0 -2px;
     font-family: Raleway;
     font-size: 60px;
@@ -26,13 +26,13 @@
 
 }
 
-.bestsellers-section p:hover{
-    color: rgb(251, 217, 19);
-    text-shadow: 0 0 10px rgb(251, 217, 19);
+.recommendations-section .header p:hover{
+    color: white;
+    text-shadow: 0 0 5px white;
     scale: 1.05;
 }
 
-.container{
+.container-recommendations{
     height: 100vh;
     width: 100vw;
     min-height: 400px;
@@ -47,12 +47,12 @@
 
 }
 
-.card{
+.recommendations-section .card{
     height: 80%;
     width: 22%;
     min-width: 200px;
     border-width: 1px;
-    border-color: white;
+    border-color: black;
     border-style: solid;
     display: flex;
     flex-direction: column;
@@ -60,16 +60,16 @@
     position: relative;
 }
 
-.image-holder{
+.recommendations-section .image-holder{
     width: 100%;
     height: 70%;
     border-width: 1px;
-    border-color: white;
+    border-color: black;
     border-style: solid;
     object-fit: cover;
 }
 
-.book-1{
+.recommendations-section .book-1{
     object-fit: cover;
     object-position: top;
     width: 100%;
@@ -77,13 +77,13 @@
 
 }
 
-.add{
+.recommendations-section .add{
     width: 90%;
     margin: 0;
     border-width: 1px;
     border: none;
-    background-color: black;
-    color: white;
+    background-color: rgb(251, 217, 19);
+    color: black;
     font-size: 13px;
     font-family: Raleway;
     transition: 0.15s;
@@ -94,7 +94,7 @@
 
 }
 
-.added{
+.recommendations-section .added{
     width: 90%;
     margin: 0;
     border-width: 1px;
@@ -113,26 +113,26 @@
 
 }
 
-.add:hover{
+.recommendations-section .add:hover{
     scale: 1.1;
     cursor: pointer;
 
 }
 
-.add:active{
+.recommendations-section .add:active{
     scale: 1.05;
 }
 
-.add:focus{
+.recommendations-section .add:focus{
     background-color: rgb(62, 159, 60);
 }
 
-.overlay{
+.recommendations-section .overlay{
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgb(251, 217, 19);
+    background-color: black;
     overflow: hidden;
     width: 100%;
     height: 0;
@@ -140,12 +140,12 @@
 
 }
 
-.card:hover .overlay{
+.recommendations-section .card:hover .overlay{
     height: 100%;
 }
 
-.text{
-    color: black;
+.recommendations-section .text{
+    color: white;
     font-family: Raleway;
     font-size: 13px;
     position: absolute;
@@ -155,23 +155,23 @@
 
 }
 
-.book-title{
+.recommendations-section .book-title{
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-.book-title p{
+.recommendations-section .book-title p{
     text-align: center;
     padding: 20px 4px 0px 4px;
-    color: white;
+    color: black;
     font-size: 20px;
     font-family: Raleway;
 
 }
 
-.book-2{
+.recommendations-section .book-2{
     object-fit: cover;
     object-position: bottom;
     width: 100%;
