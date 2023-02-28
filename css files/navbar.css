@@ -39,7 +39,8 @@ body{
 .navbar-buttons:hover{
   color: rgb(251, 217, 19);
   cursor: pointer;
-  font-size: 20px;
+  scale: 1.1;
+  text-shadow: 0 0 20px rgb(251, 217, 19);
 }
 
 .space-between{

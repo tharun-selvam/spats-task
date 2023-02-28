@@ -73,7 +73,7 @@ about{
 }
 
 .signup-container-button:hover{
-    box-shadow: 0px 0px 30px rgba(251, 217, 19, 1);
+    box-shadow: 0px 0px 50px rgba(251, 217, 19, 1);
     padding: 15px 40px;
     letter-spacing: 1px;
     color: rgb(251, 217, 19);
