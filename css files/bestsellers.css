@@ -34,7 +34,7 @@
 
 .container{
     height: 100vh;
-    width: 100vw;
+    width: 1000px;
     min-height: 400px;
     min-width: 400px;
     border: none;
@@ -51,6 +51,7 @@
     height: 80%;
     width: 22%;
     min-width: 200px;
+    min-height: 460px;
     border-width: 1px;
     border-color: white;
     border-style: solid;
@@ -82,8 +83,8 @@
     margin: 0;
     border-width: 1px;
     border: none;
-    background-color: black;
-    color: white;
+    background-color: rgb(251, 217, 19);
+    color: black;
     font-size: 13px;
     font-family: Raleway;
     transition: 0.15s;
@@ -132,7 +133,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgb(251, 217, 19);
+    background-color: black;
     overflow: hidden;
     width: 100%;
     height: 0;
@@ -145,9 +146,9 @@
 }
 
 .text{
-    color: black;
+    color: white;
     font-family: Raleway;
-    font-size: 13px;
+    font-size: 17px;
     position: absolute;
     overflow: hidden;
     top: 9%;
