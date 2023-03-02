@@ -92,3 +92,20 @@ about{
     margin: 0;
 }
 
+@media only screen and (max-width: 700px){
+    .about-background{
+        overflow: hidden;
+    }
+
+    .about{
+        display: flex;
+        align-items: center;
+    }
+
+    .signup-container{
+        margin: auto;
+        top: 20%;
+        
+    }
+}
+

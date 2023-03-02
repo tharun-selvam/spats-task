@@ -199,6 +199,7 @@
 
     .bestsellers-section{
         height: 2400px;
+        overflow: hidden;
     }
     
 }

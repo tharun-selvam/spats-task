@@ -1,5 +1,5 @@
 .recommendations-section{
-    height: 2000px;
+    height: 1200px;
     width: 100vw;
     background-color: rgb(251, 217, 19);
     margin-top: -5px; 
@@ -166,7 +166,7 @@
 
 .recommendations-section .book-title p{
     text-align: center;
-    padding: 10px 0;
+    padding: 35px 0;
     color: black;
     font-size: 20px;
     font-family: Raleway;
@@ -181,3 +181,42 @@
 
 }
 
+.second-container {
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 700px){
+    .recommendations-section .header p{
+        font-size: 40px;
+    
+    }
+
+    .container-recommendations{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .recommendations-section .card{
+        margin: 40px 0;
+    }
+
+    .bestsellers-section{
+        height: 2400px;
+    }
+
+    .second-container {
+        margin-top: 1400px;
+        
+    }
+
+    .recommendations-section{
+        height: 4800px;
+        overflow: hidden;
+    }
+
+    
+
+
+}

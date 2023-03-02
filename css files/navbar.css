@@ -58,3 +58,9 @@ body{
   color: white;
 
 }
+
+@media only screen and (max-width: 700px){
+  .navbar{
+      overflow: hidden;
+  }
+}
