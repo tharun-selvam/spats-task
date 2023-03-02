@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+  padding-bottom: 4000px;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  height: 8vh;
+  min-height: 50px;
+  background-color: black;
+  font-family: 'Raleway';
+  font-weight: 500;
+  align-items: center;
+  font-size: 18px;
+  color: white;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 100;
+}
+
+.navbar-buttons{
+  transition: color 0.15s;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 1px;
+  align-items: center;
+
+}
+
+.navbar-buttons:hover{
+  color: rgb(251, 217, 19);
+  cursor: pointer;
+  scale: 1.1;
+  text-shadow: 0 0 20px rgb(251, 217, 19);
+}
+
+.space-between{
+  flex:1;
+}
+
+.bookstore-logo{
+  width: 100px;
+  font-weight: 200;
+  color: rgb(251, 217, 19);
+
+}
+
+.bestsellers-button:hover{
+  color: white;
+
+}
