@@ -1,6 +1,6 @@
 .recommendations-section{
     height: 1200px;
-    width: 100vw;
+    width: 100%;
     background-color: rgb(251, 217, 19);
     margin-top: -5px; 
     display: flex;

@@ -5,7 +5,7 @@ about{
 .about-background{
     height: 100vh;
     min-height: 700px;
-    width: 100vw;
+    width: 100%;
 
 }
 
@@ -96,7 +96,7 @@ about{
     .about-background{
         overflow: hidden;
         height: 700px;
-        width: 100vw;
+        width: 100%;
     }
 
     .about{
