@@ -6,9 +6,6 @@ body{
 .navbar{
   display: flex;
   flex-direction: row;
-  border-width: 1px;
-  border-color: black;
-  border-style: solid;
   height: 60px;
   background-color: black;
   font-family: 'Raleway';
@@ -21,6 +18,7 @@ body{
   right: 0px;
   left: 0px;
   z-index: 100;
+  margin: 0;
 }
 
 .navbar-buttons{
@@ -77,6 +75,8 @@ body{
   align-items: center;
   font-family: Raleway;
   font-weight: 500;
+  display: none;
+  transition: display 0.15s;
 
 }
 
@@ -112,6 +112,7 @@ body{
   .hamburger-menu-icon{
     display: inline-block;
   }
+
 
   
 

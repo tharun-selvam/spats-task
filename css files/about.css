@@ -5,7 +5,7 @@ about{
 .about-background{
     height: 100vh;
     min-height: 700px;
-    width: 98.75vw;
+    width: 100vw;
 
 }
 
@@ -95,6 +95,8 @@ about{
 @media only screen and (max-width: 700px){
     .about-background{
         overflow: hidden;
+        height: 700px;
+        width: 100vw;
     }
 
     .about{
