@@ -199,7 +199,7 @@
     }
 
     .recommendations-section .card{
-        margin: 40px 0;
+        margin: 30px 0;
     }
 
     .bestsellers-section{
@@ -212,7 +212,7 @@
     }
 
     .recommendations-section{
-        height: 4800px;
+        height: 4400px;
         overflow: hidden;
     }
 

@@ -1,6 +1,7 @@
-about{
-    height: 92vh;
+html {
+    scroll-behavior: smooth;
 }
+
 
 .about-background{
     height: 100vh;
