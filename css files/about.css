@@ -7,6 +7,7 @@ html {
     height: 100vh;
     min-height: 700px;
     width: 100%;
+    object-fit: cover;
 
 }
 
@@ -98,6 +99,7 @@ html {
         overflow: hidden;
         height: 700px;
         width: 100%;
+        object-fit: cover;
     }
 
     .about{
