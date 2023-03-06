@@ -198,8 +198,10 @@
     }
 
     .bestsellers-section{
-        height: 2400px;
+        padding-bottom: 0;
         overflow: hidden;
     }
+
+    
     
 }
