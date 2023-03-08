@@ -8,7 +8,7 @@
 
 .footer-logo img{
    width: 180px;
-   margin-top: 40px;
+   margin-top: 80px;
 }
 
 .footer-logo{
@@ -27,7 +27,6 @@
 
 .important-info{
    height: 300px;
-   
    font-family: Raleway;
    padding-left: 80px;
 }
@@ -50,16 +49,14 @@
    font-weight: 700;
    font-size: 18px;
    text-decoration: underline;
-   margin-top: 40px;
+   margin-top: 80px;
 }
 
 .icons{
-   
    height: 300px;
    display: flex;
    flex-direction: column;
-   padding-top: 40px;
-   padding: 40px 20px;
+   padding: 80px 20px;
    align-items: center;
 }
 
@@ -67,4 +64,61 @@
    margin: 5px 0;
    font-size: 20px;
 
+}
+
+@media only screen and (max-width: 700px){
+   .footer{
+      height: 1150px;
+      background-color: rgb(251, 217, 19);
+      display: flex;
+      flex-direction: column;
+   }
+
+   .footer-logo img{
+      width: 180px;
+      margin-top: 80px;
+   }
+   
+   .footer-logo{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      
+      height: 200px;
+      padding-left: 40px;
+      border: 1px blue solid;
+      
+   }
+
+   .icons{
+      height: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      border: 1px blue solid;
+      padding: 0;
+      
+   }
+
+   .icons i{
+      margin: 0 10px;
+   }
+
+   .important-info {
+      margin: 0;
+      padding: 0;
+      margin-top: 4px;
+      transition: color 0.15s ,text-shadow 0.15s;
+      border: 1px blue solid;
+      padding-left: 40px;
+      height: 150px;
+   }
+
+   .important-info .header{
+      font-weight: 700;
+      font-size: 18px;
+      text-decoration: underline;
+      margin-top: 20px;
+   }
 }

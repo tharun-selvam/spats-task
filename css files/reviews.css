@@ -88,3 +88,9 @@
     font-weight: bold;
     margin-top: 10px;
  }
+
+ @media only screen and (max-width: 700px){
+    .reviews-section{
+        height: 1800px;
+    }
+}
