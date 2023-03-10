@@ -93,4 +93,15 @@
     .reviews-section{
         height: 1800px;
     }
+
+    .review-slide::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        background-color: black;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 70%; 
+     }
 }

@@ -63,20 +63,28 @@
 .icons i{
    margin: 5px 0;
    font-size: 20px;
+   cursor: pointer;
+   transform: color 0.15s;
+}
+
+.icons i:hover{
+   color: white;
+   text-shadow: 0 0 10px white;
 
 }
 
 @media only screen and (max-width: 700px){
    .footer{
-      height: 1150px;
+      height: 850px;
       background-color: rgb(251, 217, 19);
       display: flex;
       flex-direction: column;
+      justify-content: flex-start;
    }
 
    .footer-logo img{
       width: 180px;
-      margin-top: 80px;
+      margin-top: 40px;
    }
    
    .footer-logo{
@@ -86,7 +94,6 @@
       
       height: 200px;
       padding-left: 40px;
-      border: 1px blue solid;
       
    }
 
@@ -96,7 +103,6 @@
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      border: 1px blue solid;
       padding: 0;
       
    }
@@ -110,9 +116,9 @@
       padding: 0;
       margin-top: 4px;
       transition: color 0.15s ,text-shadow 0.15s;
-      border: 1px blue solid;
       padding-left: 40px;
-      height: 150px;
+      padding-bottom: 30px;
+      height: 100px;
    }
 
    .important-info .header{
@@ -121,4 +127,5 @@
       text-decoration: underline;
       margin-top: 20px;
    }
+   
 }
