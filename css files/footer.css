@@ -3,6 +3,7 @@
    background-color: rgb(251, 217, 19);
    display: flex;
    justify-content: space-between;
+   flex-wrap: wrap;
 
 }
 
