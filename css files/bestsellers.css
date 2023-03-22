@@ -27,7 +27,7 @@
 
 }
 
-.bestsellers-section p:hover{
+.bestsellers-section .header p:hover{
     color: rgb(251, 217, 19);
     text-shadow: 0 0 10px rgb(251, 217, 19);
     scale: 1.05;

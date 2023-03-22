@@ -8,6 +8,11 @@ body{
   color: white;
 }
 
+.floating-navbar a{
+  text-decoration: none;
+  color: white;
+}
+
 .floating-navbar a:visited{
   text-decoration: none;
   color: white;
@@ -46,7 +51,7 @@ body{
 
 }
 
-.navbar-buttons:hover{
+.navbar a:hover{
   color: rgb(251, 217, 19);
   cursor: pointer;
   scale: 1.1;
@@ -87,8 +92,7 @@ body{
   align-items: center;
   font-family: Raleway;
   font-weight: 500;
-  display: none;
-  transition: display 0.15s;
+  transition: all 0.15s;
 
 }
 
@@ -105,12 +109,21 @@ body{
 }
 
 .hamburger-menu-icon{
-  display: none;
   width: 25px;
   margin-right: 15px;
   margin-top: 5px;
   cursor: pointer;
 }
+@media only screen and (min-width: 700px){
+  .floating-navbar{
+
+  }
+
+  .hamburger-menu-icon{
+    display: none;
+  }
+}
+
 
 @media only screen and (max-width: 700px){
   .navbar{
