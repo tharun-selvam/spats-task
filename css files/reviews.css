@@ -111,3 +111,19 @@
         margin-top: 150px;
     }
 }
+
+@media only screen and (max-width: 436px){
+   .reviews-container{
+      margin-top: 250px;
+   }
+
+   .reviews-header{
+      font-size: 40px;
+   }
+}
+
+@media only screen and (max-width: 350px){
+   .reviews-section{
+      height: 1900px;
+   }
+}

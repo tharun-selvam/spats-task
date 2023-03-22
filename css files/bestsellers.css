@@ -1,5 +1,4 @@
 .bestsellers-section{
-    height: 800px;
     width: 100%;
     background-color: rgb(22, 22, 22);
     margin-top: -5px; 
@@ -35,26 +34,22 @@
 }
 
 .container{
-    height: 100vh;
-    width: 900px;
-    min-height: 400px;
+    height: 600px;
+    width: 1000px;
     border: none;
     margin-top: 100px;
 
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     padding: 0 30px;
-    border: 1px blue solid;
+    margin: 100px auto 0px auto;
 
 }
 
 .card{
     height: 460px;
     width: 200px;
-    min-width: 200px;
-    min-height: 460px;
     border-width: 1px;
     border-color: white;
     border-style: solid;
@@ -62,6 +57,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    margin: 0 auto;
 }
 
 .image-holder{
@@ -183,6 +179,19 @@
 
 }
 
+@media only screen and (max-width: 1070px){
+    .container{
+        width: 500px;
+        height: 1000px;
+        padding: 0 10px;
+    }
+
+    .card{
+        margin-top: 30px;
+    }
+
+}
+
 @media only screen and (max-width: 700px){
     .bestsellers-section .header p{
         font-size: 50px;
@@ -190,14 +199,15 @@
     }
 
     .container{
-        display: flex;
+        /*display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-between;*/
+        width: 300px;
     }
 
     .card{
-        margin: 40px 0;
+        margin: 40px auto;
     }
 
     .bestsellers-section{
@@ -207,4 +217,10 @@
 
     
     
+}
+
+@media only screen and (max-width: 433px){
+    .bestsellers-section .header p{
+         font-size: 30px;
+    }
 }

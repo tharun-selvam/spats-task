@@ -109,7 +109,24 @@ html {
     .signup-container{
         margin: auto;
         top: 20%;
+        left: 5%;
         
     }
+}
+
+@media only screen and (max-width: 436px){
+    .signup-container{
+        min-width: 250px;
+        height: 300px;
+    }
+
+    .signup-container-header{
+        font-size: 35px;
+    }
+
+    .signup-container-button{
+        font-size: 19px;
+    }
+
 }
 
