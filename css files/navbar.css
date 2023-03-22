@@ -115,10 +115,6 @@ body{
   cursor: pointer;
 }
 @media only screen and (min-width: 700px){
-  .floating-navbar{
-
-  }
-
   .hamburger-menu-icon{
     display: none;
   }
